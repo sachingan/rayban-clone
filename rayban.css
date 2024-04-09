@@ -1,0 +1,568 @@
+*{
+    padding:0;
+    margin:0;
+}
+.header{
+    width:100%;
+    height:70px;
+    background-color:white;
+}
+.logo{
+    width:100px;
+    height:70px;
+    background-color: rgb(255, 255, 255);
+    padding-left:120px;
+    padding-top: 10px;
+    float:left
+}
+.logo_details{
+    width:90px;
+    height:60px;
+
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    
+    padding-top: 40px;
+}
+.dnav_bar{
+    width:680px;
+    height:70px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.menuitem{
+    display:inline;
+    width:120px;
+    background-color : white;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    padding:5px;
+    color:#1f1f24 !important;
+    font-family:Rb-major-b1;
+}
+li{
+    
+    float:left;
+}
+.menuitem_promo{
+    color:red;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Rb-major-b1';
+}
+.header-right{
+    width:450px;
+    display:block;
+    height:70px;
+    background-color: white;
+    float: left;
+}
+.search-logo{
+    padding-left:200px;
+    padding-top:40px;
+    width :25px;
+    height:25px;
+    float:left;
+
+}
+.hearts_logo{
+    width:25px;
+    height:25px;
+    float:left;
+    padding-top: 40px;
+    margin-left: 10px;
+}
+.cart-logo{
+    width:45px;
+    height:45px;
+    float:left;
+    padding-top: 35px;
+    margin-left: 10px;
+}
+.person-logo{
+    width:25px;
+    height:25px;
+    float:left;
+    padding-top: 40px;
+    margin-left: 10px;
+}
+.jap_lady{
+    position: relative;
+}
+
+.iconic_text h4{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    color:white;
+    font-size: 30px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-family:Rb-major-b1;
+}
+.no_intro_text{
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    color:white;
+    font-size: 30px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-family:"Rb-major-b1";
+}
+.jap_lady .btn1{
+    position: absolute;
+    top: 80%;
+    left:30%;
+    background-color: white;
+    height:50px;
+    width:200px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.jap_lady .btn2{
+    position: absolute;
+    top: 80%;
+    left:46%;
+    background-color: white;
+    height:50px;
+    width:200px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.btn1:hover{
+    text-decoration: underline;
+
+}
+.btn2:hover{
+    text-decoration:underline;
+}
+.new-body{
+    width: 100%;
+    height:300px;
+    background-color: white;
+}
+.glass1{
+    width:30%;
+    height:300px;
+    float: left;
+}
+.glass2{
+    width:30%;
+    height:300px;
+    float: left;
+}
+.glass3{
+    width:30%;
+    height:300px;
+    float: left;
+}
+.glass1_name{
+    padding-left: 150px;
+    width:30%;
+    height:20px;
+    float: left;
+    font-weight: bold;
+}
+.glass2_name{
+    width:30%;
+    height:20px;
+    float: left;
+    font-weight: bold;
+}
+.glass3_name{
+    width:25%;
+    height:20px;
+    float: left;
+    font-weight: bold;
+}
+.glass1_price{
+    padding-left: 150px;
+    width:30%;
+    height:20px;
+    float: left;
+    font-weight: bold;
+}
+.glass2_price{
+    width:30%;
+    height:20px;
+    float: left;
+    font-weight: bold;
+}
+.glass3_price{
+    width:25%;
+    height:20px;
+    float: left;
+    font-weight: bold;
+}
+.men img{
+    width: 50%px;
+    height: 500px;
+    float: left;
+}
+.women img{
+    width: 50%px;
+    height: 500px;
+    float:left;
+}
+.footer_1{
+    width:100%;
+    height: 70px;
+    background-color: #333;
+    padding-top: 0;
+    margin-top: 0;
+}
+.mail_logo{
+    padding-left: 170px;
+    padding-top: 30px;
+    width: 60px;
+    height:40px;
+    float:left;
+}
+.mail_logo img{
+    width: 70px;
+    height:25px;
+}
+.mail_note{
+    padding-left: 2px;
+    padding-top: 30px;
+    width: 500px;
+    height:40px;
+    float:left;
+}
+.mail_note p{
+    font-weight: bold;
+    color: white;
+}
+.email{
+    width:300px;
+    height:40x;
+    float:left;
+    padding-top: 23px;
+}
+.email_input{
+    width:300px;
+    height:30px;
+
+}
+.submit{
+    padding-top:20px ;
+    width:40px;
+    float: left;
+}
+.submit_btn{
+    width:100px;
+    height:40px;
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+    border-color: black;
+}
+.footer_2{
+    width:100%;
+    height:50px;
+    background-color:#333;
+    overflow:hidden;
+    padding-left: 200px;
+}
+.footer_2 p{
+    font-size: 15px;
+    color: white;
+}
+.footer_3{
+    width:100%;
+    height:100px;
+    background-color: #e2e2e5;
+    padding-left: 1040px;
+}
+.facebook{
+    width:40px;
+    height:100px;
+    float:left;
+}
+.twitter{
+    width:40px;
+    height:100px;
+    float:left;
+}
+.instagram{
+    width:40px;
+    height:100px;
+    float:left;
+}
+.pinterest{
+    width:40px;
+    height:100px;
+    float:left;
+}
+.youtube{
+    width:40px;
+    height:100px;
+    float:left;
+}
+.fb_logo{
+    width:30px;
+    height:30px;
+    margin-top: 40px;
+
+}
+.twitter_logo{
+    width:30px;
+    height:20px;
+    margin-top: 45px;
+}
+.ig_logo{
+    width:30px;
+    height:30px;
+    margin-top: 40px;
+}
+.pinterest_logo{
+    width:30px;
+    height:30px;
+    margin-top: 40px;
+}
+.yt_logo{
+    width:30px;
+    height:30px;
+    margin-top: 40px;
+}
+.footer_4{
+    width:100%;
+    height:80px;
+}
+.india_logo{
+    width:100px;
+    height:50px;
+    float:left;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.india_logo img{
+    width:40px;
+    height:40px;
+}
+.india_text{
+    float:left;
+    padding-left:0px ;
+    padding-top: 40px;
+    width:70px;
+    height:80px;
+}
+.india_text a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color:#1f1f24;
+}
+.how_help{
+    float:left;
+    padding-top: 40px;
+    width:150px;
+    height:80px;
+}
+.how_help a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color:#1f1f24;
+}
+
+.contact_us{
+    float:left;
+    padding-top: 40px;
+    width:100px;
+    height:80px;
+}
+.contact_us a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color:#1f1f24;
+}
+
+.order_status{
+    float:left;
+    padding-top: 40px;
+    width:160px;
+    height:80px;
+}
+.order_status a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #1f1f24;;
+
+}
+.click{
+    float:left;
+    padding-top: 40px;
+    width:200px;
+    height:80px;
+}
+.click a{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 12px;
+    color:#1f1f24;
+}
+.footer_5{
+    width:100%;
+    height:80px;
+    
+}
+.store_loc{
+    width:130px;
+    height:80px;
+    margin-left: 900px;
+    float: left;
+}
+.store_loc a{
+    font-size: 12px;
+    color:#333;
+    text-decoration: underline;
+    font-weight: bold;
+} 
+.returns{
+    width:80px;
+    height:80px;
+    float:left;
+}
+.returns a{
+    font-size: 12px;
+    color:#333;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.legal{
+    width:80px;
+    height:80px;
+    float:left;
+}
+.legal a{
+    font-size: 12px;
+    color: #333;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.corp_sale{
+    width:120px;
+    height:80px;
+    float:left;
+}
+.corp_sale a{
+    font-size: 12px;
+    color: #333;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.footer_6{
+    width:100%;
+    height:80px
+}
+.lock{
+    width:40px;
+    height:50px;
+    float:left;
+    padding-left: 100px;
+}
+.lock img{
+    width:40px;
+    height:40px;
+}
+.transaction_text{
+    width:800px;
+    height:50px;
+    float:left;
+    padding-top: 16px;
+}
+.transaction_text p{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.master_card{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.master_card img{
+    width:50px;
+    height:30px;
+}
+.americanexpress_card{
+    width:50px;
+    height:50px; 
+    float:left;
+    margin-left: 5px;
+}
+.americanexpress_card img{
+    width:50px;
+    height:30px;
+}
+
+.visa_card{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.visa_card img{
+    width:50px;
+    height:40px;
+}
+.meastro_card{
+    width:50px;
+    height:50px;
+    float:left;
+    padding-left: 0px;
+}
+.meastro_card img{
+    width:50px;
+    height:30px;
+}
+.payu_card{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.payu_card img{
+    width:40px;
+    height:10px;
+}
+.paytm_card{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.paytm_card img{
+    width:40px;
+    height: 20px;
+}
+.footer_7{
+    width:100%;
+    height:50px;
+    overflow: hidden;
+    padding-left: 150px;
+}
+.footer_7 p{
+    font-size: 11px;
+    font-family: Rb-regular;
+    color:#666;
+    font-weight: 400;
+}
+.footer_8{
+    background-color:#6e716e;
+    color: #fff;
+    text-align: center;
+    height:30px;
+    padding-top: 15px;
+}
